@@ -11,11 +11,7 @@ const Signup = () => {
   const uploadId = '202898_876.jpg';
   const uploadPhoto = '202898_876.jpg';
 
-  const logoColors = {
-    green: 'bg-[#98fb98]', // Light minty green, adjust as needed
-    red: 'bg-[#f06292]',   // Pinkish red, adjust as needed
-    blue: 'bg-[#5bc0de]',  // Light blue, adjust as needed
-  };
+ 
 
   const InputField = ({ label, value, id, type = 'text', isFileUpload = false }) => (
     <div className="mb-6">
