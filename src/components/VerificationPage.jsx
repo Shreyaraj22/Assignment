@@ -4,15 +4,7 @@ const VerificationPage = () => {
     // Dummy user data from the previous sign-up step
     const maskedEmail = '**mar@letsnas.com';
     const maskedPhone = '(***) ****890';
-    const logoColors = {
-        greenText: '#62c76a', // Light minty green for 'nas' text
-        greenDot: '#98fb98', // Light green dot
-        redDot: '#f06292',   // Pinkish red dot
-        blueDot: '#5bc0de',  // Light blue dot
-    };
-
-   
-
+  
     return (
         <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
             <div className="w-full max-w-sm bg-white shadow-xl rounded-xl overflow-hidden">
